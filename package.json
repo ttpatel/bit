@@ -1,0 +1,18 @@
+{
+  "name": "bit",
+  "version": "1.0.0",
+  "description": "",
+  "main": "main.js",
+ "scripts": {
+  "start": "react-scripts start", 
+  "electron": "react-scripts start & electron .", 
+  "build": "react-scripts build", 
+  "electron-build": "react-scripts build && electron ." 
+},
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "electron": "^36.0.0"
+  }
+}

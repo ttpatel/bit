@@ -1,0 +1,32 @@
+# Common dependencies
+node_modules/
+build/
+dist/
+.cache/
+coverage/
+*.log
+
+# Environment files
+.env
+.env.*
+
+# IDE/editor files
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# Electron build files
+*.asar
+
+# Firebase / Vercel
+.firebaserc
+.vercel
+out/
+next/
